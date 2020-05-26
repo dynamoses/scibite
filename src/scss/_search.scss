@@ -1,0 +1,43 @@
+.search-container {
+    margin-top: 10px;
+    min-height: calc(100vh - 160px);
+    .logo {
+        max-width: 50px;
+        padding: 10px;
+    }
+    
+    .searchbar {
+    
+        &__input {
+            margin-left: 20px;
+        }
+    }
+}
+
+.search-result {
+    padding: 30px;
+    border-radius: 5px;
+
+    &__header {
+        margin-top: 0;
+    }
+
+    &__link {
+        overflow-wrap: break-word;
+    }
+}
+
+.pagination-container {
+    height: 100px;
+    margin-top: 50px;
+
+    @media only screen and (max-width: 600px) {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        .pagination li a {
+            font-size: 1em;
+            padding: 0 8px;
+        }
+    }
+}

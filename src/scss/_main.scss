@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  }
+
+  #app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .page-footer {
+    align-self: flex-end;
+  }
+
+  .input-field {
+    label {
+      right: 100%;
+      left: auto !important;
+      white-space: nowrap;
+    }
+    select {
+      display: inline-block;
+    }
+
+  }
